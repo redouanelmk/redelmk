@@ -13,7 +13,7 @@ class LuckyController
      */
     public function numberAction()
     {
-        $number = "hello welcome";
+        $number = "hello welcome for Dev only";
 
         return new Response(
             '<html><body>Lucky number: '.$number.'</body></html>'
