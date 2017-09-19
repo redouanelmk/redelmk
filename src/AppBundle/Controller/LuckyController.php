@@ -13,7 +13,7 @@ class LuckyController
      */
     public function numberAction()
     {
-        $number = mt_rand(0, 100);
+        $number = "hello welcome";
 
         return new Response(
             '<html><body>Lucky number: '.$number.'</body></html>'
